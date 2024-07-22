@@ -1,0 +1,13 @@
+# Modify DNF Config file 
+sudo nano /etc/dnf/dnf.conf
+
+Copy and paste
+:
+# added for speed
+fastestmirror=True
+max_parralel_downloads=3
+defultyes=True
+keepcache=True
+
+# to clean all cache
+sudo dnf clean all

@@ -1,0 +1,1 @@
+sudo sethostnamectl set-hostname Brandy #replace brandy with your hostname
