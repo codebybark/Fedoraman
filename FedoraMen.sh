@@ -19,3 +19,12 @@ sudo dnf update @core
 #install media codecs
 sudo dnf groupupdate multimedia --setop="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin
 
+
+#install programs
+#jetbrains toolbox
+cd /home/bark
+wget https://download.jetbrains.com/toolbox/jetbrains-toolbox-<version>.tar.gz -O jetbrains-toolbox.tar.gz
+tar -xzvf jetbrains-toolbox.tar.gz -C /home/bark
+cd jetbrains-toolbox-<version>
+./jetbrains-toolbox
+#
